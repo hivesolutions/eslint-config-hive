@@ -3,9 +3,5 @@ module.exports = {
         "hive",
         "plugin:vue/essential"
     ],
-    "plugins": ["vue"],
-    "env": {
-        "browser": true,
-        "jasmine": true
-    }
+    "plugins": ["vue"]
 };
