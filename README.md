@@ -1,2 +1,3 @@
-# eslint_config_hive
-Simple ESLint configuration for Hive Solutions
+# ESLint Config Hive
+
+Simple ESLint configuration for Hive Solutions.
