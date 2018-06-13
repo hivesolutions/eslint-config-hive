@@ -1,8 +1,5 @@
 module.exports = {
-    "extends": [
-        "standard",
-        "plugin:vue/essential"
-    ],
+    "extends": "standard",
     "plugins": ["mocha"],
     "rules": {
         "indent": ["warn", 4, {
@@ -17,6 +14,7 @@ module.exports = {
                 "asyncArrow": "always"
             }
         ],
+        "linebreak-style": ["error", "windows"],
         "no-debugger": "warn",
         "brace-style": "off",
         "no-useless-escape": "off",
@@ -27,6 +25,7 @@ module.exports = {
         "mocha/no-exclusive-tests": "error"
     },
     "env": {
+        "browser": true,
         "jasmine": true
     }
 };
