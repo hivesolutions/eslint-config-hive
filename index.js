@@ -1,8 +1,9 @@
 module.exports = {
     "extends": [
-        "standard"
+        "standard",
+        "plugin:vue/essential"
     ],
-    "plugins": ["mocha", "vue"],
+    "plugins": ["mocha"],
     "rules": {
         "indent": ["warn", 4, {
             SwitchCase: 1
