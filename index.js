@@ -1,17 +1,22 @@
 module.exports = {
-    "extends": "standard",
-    "plugins": ["mocha"],
-    "rules": {
-        "indent": ["warn", 4, {
-            SwitchCase: 1
+    extends: "standard",
+    plugins: ["mocha"],
+    rules: {
+        indent: [
+            "warn",
+            4, {
+                SwitchCase: 1
+            }
+        ],
+        quotes: ["error", "double", {
+            avoidEscape: true
         }],
-        "quotes": ["error", "double"],
-        "semi": ["error", "always"],
+        semi: ["error", "always"],
         "space-before-function-paren": [
             "error", {
-                "anonymous": "never",
-                "named": "never",
-                "asyncArrow": "always"
+                anonymous: "never",
+                named: "never",
+                asyncArrow: "always"
             }
         ],
         "linebreak-style": ["error", "windows"],
@@ -24,8 +29,8 @@ module.exports = {
         "standard/computed-property-even-spacing": "off",
         "mocha/no-exclusive-tests": "error"
     },
-    "env": {
-        "browser": true,
-        "jasmine": true
+    env: {
+        browser: true,
+        jasmine: true
     }
 };

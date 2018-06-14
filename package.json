@@ -3,12 +3,16 @@
     "version": "0.1.2",
     "description": "Simple ESLint configuration for Hive Solutions",
     "keywords": [
-        "eslint",
-        "config"
+        "config",
+        "eslint"
     ],
     "homepage": "https://github.com/hivesolutions/eslint_config_hive#readme",
     "bugs": {
         "url": "https://github.com/hivesolutions/eslint_config_hive/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hivesolutions/eslint_config_hive.git"
     },
     "license": "Apache-2.0",
     "author": "Hive Solutions",
@@ -17,9 +21,9 @@
         "vue.js"
     ],
     "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/hivesolutions/eslint_config_hive.git"
+    "scripts": {
+        "prettier": "prettier ./**/*.js --write",
+        "upgrade": "npx sort-package-json && ncu -au"
     },
     "dependencies": {
         "eslint-config-standard": "^11.0.0",
@@ -29,6 +33,12 @@
         "eslint-plugin-promise": "^3.8.0",
         "eslint-plugin-standard": "^3.1.0",
         "eslint-plugin-vue": "^4.5.0"
+    },
+    "devDependencies": {
+        "npm-check-updates": "^2.14.2",
+        "prettier": "^1.13.5",
+        "prettier-config-hive": "^0.1.0",
+        "sort-package-json": "^1.15.0"
     },
     "peerDependencies": {
         "eslint": "^4.19.1"
