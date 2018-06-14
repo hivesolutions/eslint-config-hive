@@ -18,6 +18,7 @@
     "author": "Hive Solutions",
     "files": [
         "index.js",
+        "prettier.js"
         "vue.js"
     ],
     "main": "index.js",
