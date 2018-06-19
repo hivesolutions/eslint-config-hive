@@ -4,16 +4,22 @@ module.exports = {
     rules: {
         indent: [
             "warn",
-            4, {
+            4,
+            {
                 SwitchCase: 1
             }
         ],
-        quotes: ["error", "double", {
-            avoidEscape: true
-        }],
+        quotes: [
+            "error",
+            "double",
+            {
+                avoidEscape: true
+            }
+        ],
         semi: ["error", "always"],
         "space-before-function-paren": [
-            "error", {
+            "error",
+            {
                 anonymous: "never",
                 named: "never",
                 asyncArrow: "always"
