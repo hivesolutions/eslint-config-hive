@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-hive",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Simple ESLint configuration for Hive Solutions",
     "keywords": [
         "config",
