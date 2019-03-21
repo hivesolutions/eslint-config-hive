@@ -24,7 +24,7 @@
     "main": "index.js",
     "scripts": {
         "prettier": "prettier \"./**/*.{js,json}\" --write",
-        "upgrade": "npx sort-package-json && ncu -au"
+        "upgrade": "npx sort-package-json && ncu -u"
     },
     "dependencies": {
         "eslint-config-standard": "^12.0.0",
