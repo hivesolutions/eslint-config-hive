@@ -8,8 +8,38 @@ module.exports = {
         "vue/max-attributes-per-line": [
             "error",
             {
-                singleline: 3
+                singleline: 4
             }
-        ] 
+        ],
+        "vue/html-self-closing": [
+            "error",
+            {
+                html: {
+                    void: "always",
+                    normal: "always",
+                    component: "always"
+                },
+                svg: "always",
+                math: "always"
+            }
+        ],
+        "vue/attributes-order": [
+            "error",
+            {
+                order: [
+                    "OTHER_ATTR",
+                    "LIST_RENDERING",
+                    "CONDITIONALS",
+                    "RENDER_MODIFIERS",
+                    "DEFINITION",
+                    "GLOBAL",
+                    "UNIQUE",
+                    "TWO_WAY_BINDING",
+                    "OTHER_DIRECTIVES",
+                    "EVENTS",
+                    "CONTENT"
+                ]
+            }
+        ]
     }
 };
