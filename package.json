@@ -4,7 +4,8 @@
     "description": "Simple ESLint configuration for Hive Solutions",
     "keywords": [
         "config",
-        "eslint"
+        "eslint",
+        "stylelint"
     ],
     "homepage": "https://github.com/hivesolutions/eslint_config_hive#readme",
     "bugs": {
