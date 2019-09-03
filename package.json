@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-hive",
-    "version": "0.1.23",
+    "version": "0.1.22",
     "description": "Simple ESLint configuration for Hive Solutions",
     "keywords": [
         "config",
@@ -27,7 +27,6 @@
         "upgrade": "npx sort-package-json && ncu -u"
     },
     "dependencies": {
-        "eslint": "^6.3.0",
         "eslint-config-standard": "^14.1.0",
         "eslint-plugin-import": "^2.18.2",
         "eslint-plugin-mocha": "^6.1.0",
