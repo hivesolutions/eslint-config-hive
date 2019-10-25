@@ -33,7 +33,8 @@ module.exports = {
         "operator-linebreak": "off",
         "standard/no-callback-literal": "off",
         "standard/computed-property-even-spacing": "off",
-        "mocha/no-exclusive-tests": "error"
+        "mocha/no-exclusive-tests": "error",
+        "object-shorthand": ["error", "never"]
     },
     env: {
         browser: true,
