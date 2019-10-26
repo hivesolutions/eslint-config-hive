@@ -26,6 +26,7 @@ module.exports = {
             }
         ],
         "linebreak-style": ["error", "windows"],
+        "object-shorthand": ["error", "never"],
         "no-debugger": "warn",
         "brace-style": "off",
         "no-useless-escape": "off",
@@ -33,8 +34,7 @@ module.exports = {
         "operator-linebreak": "off",
         "standard/no-callback-literal": "off",
         "standard/computed-property-even-spacing": "off",
-        "mocha/no-exclusive-tests": "error",
-        "object-shorthand": ["error", "never"]
+        "mocha/no-exclusive-tests": "error"
     },
     env: {
         browser: true,
