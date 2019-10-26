@@ -26,7 +26,7 @@ module.exports = {
             }
         ],
         "linebreak-style": ["error", "windows"],
-        "object-shorthand": ["error", "never"],
+        "object-shorthand": ["error", "consistent"],
         "no-debugger": "warn",
         "brace-style": "off",
         "no-useless-escape": "off",
