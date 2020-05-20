@@ -27,14 +27,14 @@
         "upgrade": "npx sort-package-json && ncu -u"
     },
     "dependencies": {
+        "babel-eslint": "10.1.0",
         "eslint-config-standard": "^14.1.1",
         "eslint-plugin-import": "^2.20.2",
         "eslint-plugin-mocha": "^7.0.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-standard": "^4.0.1",
-        "eslint-plugin-vue": "^6.2.2",
-        "babel-eslint": "10.1.0"
+        "eslint-plugin-vue": "^6.2.2"
     },
     "devDependencies": {
         "npm-check-updates": "^6.0.1",
@@ -43,6 +43,7 @@
         "sort-package-json": "^1.42.2"
     },
     "peerDependencies": {
+        "babel-eslint": "10.1.0",
         "eslint": "^7.0.0",
         "eslint-config-standard": "^14.1.1",
         "eslint-plugin-import": "^2.20.2",
@@ -50,7 +51,6 @@
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-standard": "^4.0.1",
-        "eslint-plugin-vue": "^6.2.2",
-        "babel-eslint": "10.1.0"
+        "eslint-plugin-vue": "^6.2.2"
     }
 }
