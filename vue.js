@@ -3,6 +3,9 @@ const INLINE_ELEMENTS = require("eslint-plugin-vue/lib/utils/inline-non-void-ele
 module.exports = {
     extends: ["hive", "plugin:vue/essential", "plugin:vue/recommended"],
     plugins: ["vue"],
+    parserOptions: {
+        parser: "babel-eslint"
+    },
     rules: {
         "vue/html-indent": ["error", 4],
         "vue/v-on-style": ["error", "longform"],
