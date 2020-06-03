@@ -1,56 +1,56 @@
 {
-    "name": "eslint-config-hive",
-    "version": "0.3.1",
-    "description": "Simple ESLint configuration for Hive Solutions",
-    "keywords": [
-        "config",
-        "eslint"
-    ],
-    "homepage": "https://github.com/hivesolutions/eslint_config_hive#readme",
-    "bugs": {
-        "url": "https://github.com/hivesolutions/eslint_config_hive/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/hivesolutions/eslint_config_hive.git"
-    },
-    "license": "Apache-2.0",
-    "author": "Hive Solutions",
-    "main": "index.js",
-    "files": [
-        "index.js",
-        "prettier.js",
-        "vue.js"
-    ],
-    "scripts": {
-        "prettier": "prettier \"./**/*.{js,json}\" --write",
-        "upgrade": "npx sort-package-json && ncu -u"
-    },
-    "dependencies": {
-        "babel-eslint": "10.1.0",
-        "eslint-config-standard": "^14.1.1",
-        "eslint-plugin-import": "^2.20.2",
-        "eslint-plugin-mocha": "^7.0.0",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-standard": "^4.0.1",
-        "eslint-plugin-vue": "^6.2.2"
-    },
-    "devDependencies": {
-        "npm-check-updates": "^6.0.1",
-        "prettier": "^2.0.5",
-        "prettier-config-hive": "^0.1.7",
-        "sort-package-json": "^1.42.2"
-    },
-    "peerDependencies": {
-        "babel-eslint": "10.1.0",
-        "eslint": "^7.0.0",
-        "eslint-config-standard": "^14.1.1",
-        "eslint-plugin-import": "^2.20.2",
-        "eslint-plugin-mocha": "^7.0.0",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-standard": "^4.0.1",
-        "eslint-plugin-vue": "^6.2.2"
-    }
+  "name": "eslint-config-hive",
+  "version": "0.3.1",
+  "description": "Simple ESLint configuration for Hive Solutions",
+  "keywords": [
+    "config",
+    "eslint"
+  ],
+  "homepage": "https://github.com/hivesolutions/eslint_config_hive#readme",
+  "bugs": {
+    "url": "https://github.com/hivesolutions/eslint_config_hive/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Hive Solutions",
+  "files": [
+    "index.js",
+    "prettier.js",
+    "vue.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hivesolutions/eslint_config_hive.git"
+  },
+  "scripts": {
+    "prettier": "prettier \"./**/*.{js,json}\" --write",
+    "upgrade": "npx sort-package-json && ncu -u"
+  },
+  "dependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^6.0.1",
+    "prettier": "^2.0.5",
+    "prettier-config-hive": "^0.1.7",
+    "sort-package-json": "^1.42.2"
+  },
+  "peerDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "^7.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2"
+  }
 }
