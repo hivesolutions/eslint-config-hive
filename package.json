@@ -27,6 +27,7 @@
         "upgrade": "npx sort-package-json && ncu -u"
     },
     "dependencies": {
+        "@babel/core": "^7.12.3",
         "@babel/eslint-parser": "^7.12.1",
         "eslint-config-standard": "^14.1.1",
         "eslint-plugin-import": "^2.20.2",
