@@ -1,6 +1,6 @@
 module.exports = {
     extends: "standard",
-    parser: "babel-eslint",
+    parser: "@babel/eslint-parser",
     plugins: ["mocha"],
     rules: {
         indent: [

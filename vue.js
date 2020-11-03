@@ -4,7 +4,7 @@ module.exports = {
     extends: ["hive", "plugin:vue/essential", "plugin:vue/recommended"],
     plugins: ["vue"],
     parserOptions: {
-        parser: "babel-eslint"
+        parser: "@babel/eslint-parser"
     },
     rules: {
         "vue/html-indent": ["error", 4],
