@@ -11,11 +11,3 @@ install:
   - npm install
 git:
   submodules: false
-deploy:
-  provider: npm
-  email: development@hive.pt
-  api_key:
-    secure: VsBaypoWpr0vj2LFVM9QzxtV2wBq/l3sEFvvgvb5LC2WhpDSUVErGqnaxCxbtSg2/jhvnxAJbje8aPMruNf65LeJE4TRjyt7UN6NMNwaPtyJWycpK/ikeEJpHO4YfavRNgjD7Rc1/aDngXy3Ek4Mg1RtcbUT7fsTaCYB95uIFnBawBoDdGT49EvkOFUfbvyW07EZIm+XiVw+1f7QADZfwLZxFJ+KKP2DEVXuvZ1JcyNpFN38vwcgNX5iy1AkXGgii+mctvrKAMIBZNurEc7LRoejELk8SjeSyEjgNOejQw91jC9w3qJ7ZjXSo4PHR4lkyBlOkan0AF5CvawKidol9WmSLoBKEyO6lgvmDn/qu/kE7osfHVZXKs0NRSaq6Ea9mF8KqF2LGgCktZtMFiqMF77xfX380vCDZAEF3ODx165sGYSgEbJ4/Usks+KzzlZQGTix1sUWR2Q6iQ3eXWLtqvJbqbbDo1xn4FOcvO+whqUCB8Yu/Mm3Pu6WSFWBRicwy1uyebbI8IjbQsheP/QWZhqQGHfJAeDXtgUcOmDy4zdt06phmnV4rK819l4AHsSqxiR6dZTwZJIJ4+pJ6M5EU026mItBox73YOAPAmwuj0TO9uBrveJiEaTAqR2t3Y3r0HODIIXuyLA0X85HW3GdBKo6byLKdJGz7PNW/k/jdAo=
-  on:
-    tags: true
-    node_js: "7"
