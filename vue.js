@@ -7,6 +7,7 @@ module.exports = {
         parser: "@babel/eslint-parser"
     },
     rules: {
+        "vue/component-tags-order": "off",
         "vue/html-indent": ["error", 4],
         "vue/v-on-style": ["error", "longform"],
         "vue/v-bind-style": ["error", "longform"],
