@@ -9,9 +9,9 @@ module.exports = {
     rules: {
         "vue/component-tags-order": "off",
         "vue/html-indent": ["error", 4],
+        "vue/component-definition-name-casing": ["error", "kebab-case"],
         "vue/v-on-style": ["error", "longform"],
         "vue/v-bind-style": ["error", "longform"],
-        "vue/component-definition-name-casing": ["error", "kebab-case"],
         "vue/v-slot-style": ["error", {
             "atComponent": "v-slot",
             "default": "v-slot",
