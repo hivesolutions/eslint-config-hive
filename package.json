@@ -27,31 +27,31 @@
         "upgrade": "npx sort-package-json && ncu -u"
     },
     "dependencies": {
-        "@babel/core": "^7.12.3",
+        "@babel/core": "^7.12.10",
         "@babel/eslint-parser": "^7.12.1",
         "eslint-config-standard": "^16.0.2",
         "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-mocha": "^8.0.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-standard": "^4.1.0",
-        "eslint-plugin-vue": "^7.1.0"
+        "eslint-plugin-standard": "^5.0.0",
+        "eslint-plugin-vue": "^7.3.0"
     },
     "devDependencies": {
-        "npm-check-updates": "^10.2.1",
-        "prettier": "^2.1.2",
+        "npm-check-updates": "^10.2.5",
+        "prettier": "^2.2.1",
         "prettier-config-hive": "^0.1.7",
-        "sort-package-json": "^1.47.0"
+        "sort-package-json": "^1.48.0"
     },
     "peerDependencies": {
         "@babel/eslint-parser": "^7.12.1",
-        "eslint": "^7.13.0",
+        "eslint": "^7.16.0",
         "eslint-config-standard": "^16.0.2",
         "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-mocha": "^8.0.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-standard": "^4.1.0",
-        "eslint-plugin-vue": "^7.1.0"
+        "eslint-plugin-vue": "^7.3.0"
     }
 }
