@@ -84,8 +84,8 @@ module.exports = {
                 "watch",
                 "watchQuery",
                 "LIFECYCLE_HOOKS",
-                "methods",
                 "ROUTER_GUARDS",
+                "methods",
                 ["template", "render"],
                 "renderError"
             ]
