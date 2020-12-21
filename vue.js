@@ -8,6 +8,7 @@ module.exports = {
     },
     rules: {
         "vue/component-tags-order": "off",
+        "vue/one-component-per-file": "off",
         "vue/html-indent": ["error", 4],
         "vue/component-definition-name-casing": ["error", "kebab-case"],
         "vue/v-on-style": ["error", "longform"],
