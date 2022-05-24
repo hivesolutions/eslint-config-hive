@@ -9,15 +9,19 @@ module.exports = {
     rules: {
         "vue/component-tags-order": "off",
         "vue/one-component-per-file": "off",
+        "vue/multi-word-component-names": "off",
         "vue/html-indent": ["error", 4],
         "vue/component-definition-name-casing": ["error", "kebab-case"],
         "vue/v-on-style": ["error", "longform"],
         "vue/v-bind-style": ["error", "longform"],
-        "vue/v-slot-style": ["error", {
-            "atComponent": "v-slot",
-            "default": "v-slot",
-            "named": "longform",
-        }],
+        "vue/v-slot-style": [
+            "error",
+            {
+                atComponent: "v-slot",
+                default: "v-slot",
+                named: "longform"
+            }
+        ],
         "vue/max-attributes-per-line": [
             "error",
             {
@@ -54,43 +58,46 @@ module.exports = {
                 ]
             }
         ],
-        "vue/order-in-components": ["error", {
-            "order": [
-                "el",
-                "name",
-                "key",
-                "parent",
-                "functional",
-                ["delimiters", "comments"],
-                ["components", "directives", "filters"],
-                "extends",
-                "mixins",
-                ["provide", "inject"],
-                "layout",
-                "middleware",
-                "validate",
-                "scrollToTop",
-                "transition",
-                "loading",
-                "inheritAttrs",
-                "model",
-                ["props", "propsData"],
-                "emits",
-                "setup",
-                "asyncData",
-                "data",
-                "fetch",
-                "head",
-                "computed",
-                "watch",
-                "watchQuery",
-                "LIFECYCLE_HOOKS",
-                "ROUTER_GUARDS",
-                "methods",
-                ["template", "render"],
-                "renderError"
-            ]
-        }],
+        "vue/order-in-components": [
+            "error",
+            {
+                order: [
+                    "el",
+                    "name",
+                    "key",
+                    "parent",
+                    "functional",
+                    ["delimiters", "comments"],
+                    ["components", "directives", "filters"],
+                    "extends",
+                    "mixins",
+                    ["provide", "inject"],
+                    "layout",
+                    "middleware",
+                    "validate",
+                    "scrollToTop",
+                    "transition",
+                    "loading",
+                    "inheritAttrs",
+                    "model",
+                    ["props", "propsData"],
+                    "emits",
+                    "setup",
+                    "asyncData",
+                    "data",
+                    "fetch",
+                    "head",
+                    "computed",
+                    "watch",
+                    "watchQuery",
+                    "LIFECYCLE_HOOKS",
+                    "ROUTER_GUARDS",
+                    "methods",
+                    ["template", "render"],
+                    "renderError"
+                ]
+            }
+        ],
         "vue/singleline-html-element-content-newline": [
             "error",
             {

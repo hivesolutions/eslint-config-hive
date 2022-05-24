@@ -9,11 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-*
+* Support for node 16
+* Turn off rule `vue/multi-word-component-names`
 
 ### Changed
 
 * Bumped some of the packages
+* Moved dependencies to peerDependencies
 
 ### Fixed
 
