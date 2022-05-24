@@ -17,6 +17,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+*
+
+## [0.5.5] - 2022-05-24
+
+### Fixed
+
 * Reversed `peerDependencies` back to `dependencies`
 
 ## [0.5.4] - 2022-05-24
