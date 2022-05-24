@@ -17,7 +17,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-* Reversed bump of version
+*
+
+## [0.5.8] - 2022-05-24
+
+### Fixed
+
+* Reversed bump of versions
 
 ## [0.5.7] - 2022-05-24
 
