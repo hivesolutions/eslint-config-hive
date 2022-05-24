@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Reversed version bump
 
+## [0.5.6] - 2022-05-24
+
+### Fixed
+
+* Reversed version bump
+
 ## [0.5.5] - 2022-05-24
 
 ### Fixed
