@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+*
+
+### Changed
+
+*
+
+### Fixed
+
+*
+
+## [0.5.4] - 2022-05-24
+
+### Added
+
 * Support for node 16
 * Turn off rule `vue/multi-word-component-names`
 
@@ -16,7 +30,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Bumped some of the packages
 * Moved dependencies to peerDependencies
-
-### Fixed
-
-*
