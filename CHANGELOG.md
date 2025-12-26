@@ -13,12 +13,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-* Repository name to `eslint-config-hive`
-* Migrated configuration to ESLint 9+
+*
 
 ### Fixed
 
 *
+
+## [0.7.0] - 2025-12-26
+
+### Changed
+
+* Repository name to `eslint-config-hive`
+* Migrated configuration to ESLint 9+
 
 ## [0.6.0] - 2022-11-07
 

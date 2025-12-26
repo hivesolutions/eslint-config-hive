@@ -4,8 +4,8 @@ Simple ESLint configuration for Hive Solutions.
 
 ## Requirements
 
-- ESLint 9.x
-- Node.js 18.x or higher
+* ESLint 9.x
+* Node.js 18.x or higher
 
 ## Installation
 
